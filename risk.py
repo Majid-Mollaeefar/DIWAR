@@ -240,11 +240,11 @@ def perform_risk_assessment(selected_threats, user_responses, threats_data, cont
 
     def color_code_risk(val):
         color_map = {
-            "Very Low": "background-color: #008000; color: #FFFFFF;",  # Green background, White text
-            "Low": "background-color: #FFFF00; color: #000000;",       # Yellow background, Black text
-            "Medium": "background-color: #A5762A; color: #FFFFFF;",    # Brown background, White text
-            "High": "background-color: #ED7777; color: #FFFFFF;",      # Light Coral background, White text
-            "Critical": "background-color: #ED0E0E; color: #FFFFFF;"   # Red background, White text
+            "Very Low": "background-color: #008000; color: #FFFFFF;",  
+            "Low": "background-color: #FFFF00; color: #000000;",       
+            "Medium": "background-color: #A5762A; color: #FFFFFF;",    
+            "High": "background-color: #ED7777; color: #FFFFFF;",     
+            "Critical": "background-color: #ED0E0E; color: #FFFFFF;"   
         }
         return color_map.get(val, "")
 
