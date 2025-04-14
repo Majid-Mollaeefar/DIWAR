@@ -126,18 +126,7 @@ def display_control_mitigation_selection(threat_code, threats_data, selected_rol
                         f"**Responsible role(s):** <span style='color:#f58f2f'> {', '.join(responsible_roles)}</span>",
                         unsafe_allow_html=True,
                     )
-                # #Showing the selected mitigation level as info.
-                # selected_level = st.radio(
-                #     f"What is the level of implementation of the control {control_code}?",
-                #     mitigation_levels,
-                #     key=f"{threat_code}_{control_code}"
-                # )
-
-                # if selected_level != "N/A":
-                #     level_description = control_name.get(selected_level, "Description not available.")
-                #     st.write(f"**Selected mitigation level:** {level_description}")
-
-                # user_responses[control_code] = MITIGATION_LEVELS_MAPPING[selected_level]
+        
                    # Create a list of tuples with mitigation levels and their descriptions
                 mitigation_options = [(level, control_name.get(level, "Description not available.")) if level != "N/A" else (level, "") for level in mitigation_levels]
 
@@ -330,21 +319,6 @@ with tab1:
                     )
                     
                     user_responses[control_code] = MITIGATION_LEVELS_MAPPING[selected_level[0]]
-
-                    # selected_level = st.radio(
-                    #     f"What is the level of implementation of the control {control_code}?",
-                    #     mitigation_levels,
-                    #     key=f"shared_{control_code}"
-                    # )
-
-                    # if selected_level != "N/A":
-                    #     level_description = controls_data['Controls'].get(control_code, {}).get('Mitigation Level', {}).get(selected_level, "Description not available.")
-                    #     st.markdown(
-                    #         f"**Selected mitigation level:** <span style='color:#f58f2f'> {level_description}</span>",
-                    #         unsafe_allow_html=True,
-                    #     )
-
-                    # user_responses[control_code] = MITIGATION_LEVELS_MAPPING[selected_level]
 
             # Step 3: Perform Risk Assessment
             if st.button("Risk Assessment"):
