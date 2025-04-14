@@ -82,7 +82,3 @@ The tool uses a qualitative risk matrix with the following levels:
 - Medium (Brown)
 - High (Light Red)
 - Critical (Dark Red)
-
-## Contact
-
-For more information or feedback, contact: st-diwar@fbk.eu
