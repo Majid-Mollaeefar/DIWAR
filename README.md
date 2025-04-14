@@ -2,7 +2,7 @@
 
 > This repository contains the source code of the DIWAR tool, which is described in our paper "Entity-based Risk Assessment: A European Digital Identity Wallet Use Case" submitted to the 30th European Symposium on Research in Computer Security (ESORICS 2025).
 
-A Streamlit-based application for evaluating and calculating risks associated with different entities in the context of Digital Identity Wallets. This tool helps assess threats and implement mitigation controls for various stakeholders in the digital identity ecosystem.
+<!-- A Streamlit-based application for evaluating and calculating risks associated with different entities in the context of Digital Identity Wallets. This tool helps assess threats and implement mitigation controls for various stakeholders in the digital identity ecosystem. -->
 
 ## Prerequisites
 
