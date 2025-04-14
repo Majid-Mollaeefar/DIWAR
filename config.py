@@ -52,8 +52,7 @@ def config():
     """)
     st.sidebar.write("""**D.I.W.A.R.** is an acronym for: **D**igital **I**dentity **W**allet **A**nalysis and **R**isk assessment.
     """)
-    st.sidebar.write("""**Methodology:** DIWAR is a Control-based Risk Assessment tool designed to evaluate risks associated with various security threats by assessing the effectiveness of implemented controls. Central to this assessment is the **[DREAD model](https://en.wikipedia.org/wiki/DREAD_(risk_assessment_model))**, a framework used to quantify, evaluate, and prioritize threats based on DREAD factors.
-                    
+    st.sidebar.write("""**Methodology:** DIWAR is a control-based risk assessment methodology that integrates DREAD factors with entity-specific control attribution. It quantitatively evaluates threats and prescribes targeted mitigations aligned with entity responsibilities, supporting both entity-specific and system-wide risk assessments through the **[DREAD model](https://en.wikipedia.org/wiki/DREAD_(risk_assessment_model))**.
                     """)
     render_header(1)
     # st.sidebar.header("How It Works")
@@ -63,5 +62,3 @@ def config():
     3. **Control Selection**: Choose the level of implementation for each control and view the overall risk for the entity.
     4. **View Risks**: The tool calculates and displays qualitative risks based on control implementation and threat data.
     """)
-    st.sidebar.write("---")
-    st.sidebar.write("For more information or feedback, contact us at: st-diwar@fbk.eu")

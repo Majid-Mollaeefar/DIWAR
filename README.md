@@ -1,9 +1,8 @@
 # Digital Identity Wallet Risk Assessment Tool (DIWAR)
 
-> This repository contains the source code of the DIWAR tool, which is described in our paper submitted to the 30th European Symposium on Research in Computer Security (ESORICS 2025).
+> This repository contains the source code of the DIWAR tool, which is described in our paper "Entity-based Risk Assessment: A European Digital Identity Wallet Use Case" submitted to the 30th European Symposium on Research in Computer Security (ESORICS 2025).
 
-An UI-based web application for evaluating and calculating risks associated with different entities in the context of Digital Identity Wallets. This tool helps assess threats and implement mitigation controls for various stakeholders in the digital identity ecosystem.
-
+A Streamlit-based application for evaluating and calculating risks associated with different entities in the context of Digital Identity Wallets. This tool helps assess threats and implement mitigation controls for various stakeholders in the digital identity ecosystem.
 
 ## Prerequisites
 
@@ -13,19 +12,23 @@ An UI-based web application for evaluating and calculating risks associated with
 ## Installation
 
 1. Clone the repository
+
 2. Create a virtual environment (recommended):
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
 ```
+
 3. Install the required dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Project Structure
 
-```
+```plaintext
 diwar/
 ├── .files/               # Configuration and data files
 │   ├── threats_controls.json         # Mapping of threats to controls
@@ -42,6 +45,7 @@ diwar/
 ## Usage
 
 1. Run the Streamlit application:
+
 ```bash
 streamlit run risk.py
 ```
@@ -58,7 +62,8 @@ streamlit run risk.py
 
 ## Control Implementation Levels
 
-Controls can be implemented at different levels:
+The following levels can be set for each control:
+
 - **N/A**: Not applicable
 - **Basic**: Fundamental implementation
 - **Intermediate**: Enhanced implementation
@@ -77,6 +82,7 @@ Controls can be implemented at different levels:
 ## Risk Matrix
 
 The tool uses a qualitative risk matrix with the following levels:
+
 - Very Low (Green)
 - Low (Yellow)
 - Medium (Brown)
