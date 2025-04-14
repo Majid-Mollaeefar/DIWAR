@@ -1,6 +1,8 @@
 # Digital Identity Wallet Risk Assessment Tool (DIWAR)
 
-A Streamlit-based application for evaluating and calculating risks associated with different entities in the context of Digital Identity Wallets. This tool helps assess threats and implement mitigation controls for various stakeholders in the digital identity ecosystem.
+> This repository contains the source code of the DIWAR tool, which is described in our paper submitted to the 30th European Symposium on Research in Computer Security (ESORICS 2025).
+
+An UI-based web application for evaluating and calculating risks associated with different entities in the context of Digital Identity Wallets. This tool helps assess threats and implement mitigation controls for various stakeholders in the digital identity ecosystem.
 
 
 ## Prerequisites
@@ -80,3 +82,7 @@ The tool uses a qualitative risk matrix with the following levels:
 - Medium (Brown)
 - High (Light Red)
 - Critical (Dark Red)
+
+## Contact
+
+For more information or feedback, contact: st-diwar@fbk.eu
