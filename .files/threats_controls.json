@@ -73,38 +73,32 @@
             "Code": "T2",
             "Name": "Entity impersonation",
             "Controls": [
-                {
-                    "Code": "C3",
-                    "Overall Weights": 2.5,
-                    "Normalized Weights": 0.22, 
-                    "Role_Responsible": ["Issuer", "Holder"],
-                    "Implementation Choice": "Mandatory"
-                },
+                
                 {
                     "Code": "C16",
                     "Overall Weights": 2,
-                    "Normalized Weights": 0.17, 
+                    "Normalized Weights": 0.22, 
                     "Role_Responsible": ["Issuer", "Verifier", "Holder"],
                     "Implementation Choice": "Recommended"
                 },
                 {
                     "Code": "C22",
                     "Overall Weights": 2.5,
-                    "Normalized Weights": 0.22, 
+                    "Normalized Weights": 0.28, 
                     "Role_Responsible": ["Issuer", "Wallet Provider", "Verifier", "Holder"],
                     "Implementation Choice": "Mandatory"
                 },
                 {
                     "Code": "C1",
                     "Overall Weights": 2.5,
-                    "Normalized Weights": 0.22, 
+                    "Normalized Weights": 0.28, 
                     "Role_Responsible": ["Issuer", "Wallet Provider", "Verifier", "Holder"],
                     "Implementation Choice": "Temp"
                 },
                 {
                     "Code": "C25",
                     "Overall Weights": 2,
-                    "Normalized Weights": 0.17, 
+                    "Normalized Weights": 0.22, 
                     "Role_Responsible": ["Issuer", "Wallet Provider", "Verifier", "Holder"],
                     "Implementation Choice": "Temp"
                 }
